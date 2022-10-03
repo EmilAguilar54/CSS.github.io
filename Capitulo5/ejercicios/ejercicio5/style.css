@@ -1,0 +1,20 @@
+div {
+	width: 500px;
+	height: 500px;
+	background: -webkit-gradient(
+		linear, left top, right bottom,
+		color-stop(14%, red), color-stop(28%, orange),
+		color-stop(42%, yellow), color-stop(56%, green),
+		color-stop(60%, blue), color-stop(74%, indigo),
+		color-stop(88%, violet)	);
+
+	background: -moz-linear-gradient(
+		top left, red 14%, orange 28%, yellow 42%,
+		green 56%, blue 60%, indigo 74%, violet 88%
+	);
+
+	background: linear-gradient(
+		135deg, red 14%, orange 28%, yellow 42%,
+		green 56%, blue 60%, indigo 74%, violet 88%
+	);
+}

@@ -1,0 +1,28 @@
+img {
+	position: relative;
+	-webkit-animation: movingImage linear 5s 1s infinite normal;
+	animation-play-state: running;
+}
+
+@-webkit-keyframes movingImage{
+	0%		{opacity: 1; left: 0px; top: 0px;}
+	25%		{opacity: 1; left: 300px; top: 0px;}
+	50%		{opacity: 1; left: 300px; top: 300px;}
+	75%		{opacity: 1; left: 0px; top: 300px;}
+	100%	{opacity: 1; left: 0px; top: 0px;}
+}
+@-moz-keyframes movingImage{
+	0%		{opacity: 1; left: 0px; top: 0px;}
+	25%		{opacity: 1; left: 300px; top: 0px;}
+	50%		{opacity: 1; left: 300px; top: 300px;}
+	75%		{opacity: 1; left: 0px; top: 300px;}
+	100%	{opacity: 1; left: 0px; top: 0px;}
+}
+
+@keyframes movingImage{
+	0%		{opacity: 1; left: 0px; top: 0px;}
+	25%		{opacity: 1; left: 300px; top: 0px;}
+	50%		{opacity: 1; left: 300px; top: 300px;}
+	75%		{opacity: 1; left: 0px; top: 300px;}
+	100%	{opacity: 1; left: 0px; top: 0px;}
+}
